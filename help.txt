@@ -1,0 +1,13 @@
+Given three strings mode, text, and key: it will produce an output string by xor'ing corresponding values together.
+
+input mode: human/numOut
+input keyfile is extended ASCII text FILE
+input textfile is extended ASCII text FILE
+output is the xor'ed value of the text and the key string.
+
+Note:
+The output should be the same length as the text.
+If the length of the keyfile is shorter than the textfile, loop the key string.
+
+Usage:
+    make run ARGS="mode keyfile textfile"
