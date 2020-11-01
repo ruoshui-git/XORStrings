@@ -1,3 +1,5 @@
+pub mod playfair;
+
 #[cfg(test)]
 mod tests {
     #[test]
