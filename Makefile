@@ -1,5 +1,5 @@
 
-RUN = cargo run --release
+RUN = @cargo run --release
 
 help:
 	@cat help.txt
